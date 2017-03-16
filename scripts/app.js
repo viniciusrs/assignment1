@@ -11,7 +11,7 @@
 		$scope.message = null;
 
 		var lunchChecker = function (){
-			var howMany = $scope.check.split(" ");
+			var howMany = $scope.check.split(",");
 			var total = 0;
 
 			// -- Start verify if have some blank spaces -- 
