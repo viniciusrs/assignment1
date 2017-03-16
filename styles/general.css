@@ -39,7 +39,7 @@ body{
 	color: #77f442;
 }
 
-.messageErro > p{
+.messageErro p{
 	margin: 30px auto;
 	border: 2px solid red;
 	padding: 10px;

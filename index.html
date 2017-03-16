@@ -13,25 +13,30 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="title
-						col-md-12">
-				<h1>Lunch Check</h1>
+			<div class="col-md-12">
+				<div class="title">
+					<h1>Lunch Check</h1>
+				</div>		
 			</div>
 
 			<div ng-controller="LunchCheckController">
-				<div class="textbox
-							col-md-12">
-					<input ng-model="check" type="textbox">
+
+				<div class="col-md-12">
+					<div class="textbox">
+						<input ng-model="check" type="textbox">
+					</div>
 				</div>
 
-				<div class="button
-							col-md-12">
-					<button ng-click="myClick()">Check If Too Much</button>
+				<div class="col-md-12">
+					<div class="button">
+						<button ng-click="myClick()">Check If Too Much</button>
+					</div>
 				</div>
 
-				<div class="{{message}}
-							col-md-12">
-					<p>{{erro}}</p>
+				<div class="col-md-12">
+					<div class="{{message}}">
+						<p>{{erro}}</p>
+					</div>
 				</div>
 			</div>
 		</div>

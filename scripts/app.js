@@ -16,7 +16,7 @@
 
 			// -- Start verify if have some blank spaces -- 
 			for (var i = 0; i < howMany.length; i++){
-				if (howMany[i] !== ""){
+				if (howMany[i].trim() !== ""){
 					total++;
 				}
 			};
